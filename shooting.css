@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.game-setup {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#game-area {
+    visibility: hidden;
+
+}
+
+.display-header {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #111;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.display {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: aliceblue;
+    width: 180px;
+    height: 80px;
+
+}
+
+.player1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 70px;
+
+}
+
+.player2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 70px;
+
+}
+
+.bullet1 {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
+.bullet2 {
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+}
+
+#start-button {
+    background-color: #b0b9cb;
+    color: #111;
+    border-radius: 4px;
+    height: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border:#2250ac;
+}
+
+#start-button:hover {
+    background-color: rgb(248, 246, 244);
+}
+
+#shoot-button {
+    background-color: #fa5c3d;
+    color: #111;
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: #4b0f03;
+}
+
+#shoot-button:hover {
+    background-color: rgb(255, 28, 28);
+}
